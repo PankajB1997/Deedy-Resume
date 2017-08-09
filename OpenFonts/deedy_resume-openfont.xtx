@@ -1,13 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Deedy - One Page Two Column Resume
 % LaTeX Template
-% Version 1.2 (16/9/2014)
-%
-% Original author:
-% Debarghya Das (http://debarghyadas.com)
-%
-% Original repository:
-% https://github.com/deedydas/Deedy-Resume
+% Version 1.1 (30/4/2014)
 %
 % IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
 %
@@ -17,40 +11,10 @@
 % operating system or comment the line out to use the default font.
 % 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% TODO:
-% 1. Integrate biber/bibtex for article citation under publications.
-% 2. Figure out a smoother way for the document to flow onto the next page.
-% 3. Add styling information for a "Projects/Hacks" section.
-% 4. Add location/address information
-% 5. Merge OpenFont and MacFonts as a single sty with options.
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% CHANGELOG:
-% v1.1:
-% 1. Fixed several compilation bugs with \renewcommand
-% 2. Got Open-source fonts (Windows/Linux support)
-% 3. Added Last Updated
-% 4. Move Title styling into .sty
-% 5. Commented .sty file.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Known Issues:
-% 1. Overflows onto second page if any column's contents are more than the
-% vertical limit
-% 2. Hacky space on the first bullet point on the second column.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 \documentclass[]{deedy-resume-openfont}
-\usepackage{fancyhdr}
- 
-\pagestyle{fancy}
-\fancyhf{}
- 
+
+
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -65,8 +29,9 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Debarghya}{Das}{ \urlstyle{same}\href{http://debarghyadas.com}{debarghyadas.com}| \href{http://fb.co/dd}{fb.co/dd}\\
-\href{mailto:deedy@fb.com}{deedy@fb.com} | 607.379.5733 | \href{mailto:dd367@cornell.edu}{dd367@cornell.edu}
+
+
+\namesection {}{Pankaj Bhootra}{ \href{mailto:pankajbhootra@gmail.com}{pankajbhootra@gmail.com} | (+65) 9614 5687
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -83,22 +48,18 @@
 
 \section{Education} 
 
-\subsection{Cornell University}
-\descript{MEng in Computer Science}
-\location{Dec 2014 | Ithaca, NY}
+\subsection{National University \\ of Singapore}
+\descript{B.Eng. in Computer Engineering}
+\location{Expected May 2019 | Singapore \\ Current CAP: 4.17 / 5.00}
 \sectionsep
 
-\subsection{Cornell University}
-\descript{BS in Computer Science}
-\location{May 2014 | Ithaca, NY}
-College of Engineering \\
-Magna Cum Laude\\
-\location{ Cum. GPA: 3.83 / 4.0 \\
-Major GPA: 3.9 / 4.0}
+\subsection{Hong Kong University \\ of Science and Technology}
+\descript{International Summer \\ Exchange Programme}
+\location{June 2016 - August 2016 | Hong Kong}
 \sectionsep
 
-\subsection{La Martiniere for Boys}
-\location{Grad. May 2011|  Kolkata, India}
+\subsection{Don Bosco School, Liluah}
+\location{Grad. April 2015 |  Kolkata, India \\ School-leaving Examinations: 99.00\%}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -106,51 +67,44 @@ Major GPA: 3.9 / 4.0}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Links} 
-Facebook:// \href{https://facebook/dd}{\bf dd} \\
-Github:// \href{https://github.com/deedydas}{\bf deedydas} \\
-LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\bf debarghyadas} \\
-YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\bf DeedyDash007} \\
-Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
-Quora://  \href{https://www.quora.com/Debarghya-Das}{\bf Debarghya-Das}
+GitHub:// \href{https://github.com/PankajB1997}{\custombold{PankajB1997}} \\
+LinkedIn://  \href{https://www.linkedin.com/in/pankaj-bhootra-8b2182a1}{\custombold{pankaj-bhootra}}
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Coursework}
-\subsection{Graduate}
-Advanced Machine Learning \\
-Open Source Software Engineering \\
-Advanced Interactive Graphics \\
-Compilers + Practicum \\
-Cloud Computing \\
-Evolutionary Computation \\
-Defending Computer Networks \\
-Machine Learning \\
-\sectionsep
-
 \subsection{Undergraduate}
-Information Retrieval \\
-Operating Systems \\
-Artificial Intelligence + Practicum \\
-Functional Programming \\
-Computer Graphics + Practicum \\
-{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst 2x) }}} \\
-Unix Tools and Scripting \\
+Data Structures and Algorithms \\
+Software Engineering \\
+Database Management Systems \\
+Real-time Operating Systems \\
+Digital Systems \\
+Programming For Computer Interfaces \\
+Applied Statistics \\
+Engineering Mathematics \\
+Discrete Mathematics \\
+Financial Accounting \\
+Engineering Professionalism
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Skills}
-\subsection{Programming}
-\location{Over 5000 lines:}
-Java \textbullet{}   Shell \textbullet{} Python \textbullet{} Javascript \\
-OCaml \textbullet{} Matlab \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
-\location{Over 1000 lines:}
-C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
-\location{Familiar:}
-AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
+\subsection{Technical Skills}
+\location{Programming Languages}
+Java \textbullet{}   C\# \textbullet{} Python \textbullet{} C \textbullet{} C++ \\ 
+\location{Web Technologies}
+HTML \textbullet{} CSS \textbullet{} JavaScript \textbullet{} MySQL \textbullet{} Bootstrap \textbullet{} WordPress \\
+\location{Others}
+MixPanel Analytics \textbullet{} SQL Server Reporting Services (SSRS) \textbullet{} Microsoft Office \textbullet{} Compiling technical documentations for software projects
+\sectionsep
+\subsection{Languages}
+\location{Fluent in English and Hindi}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -168,76 +122,74 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
-\runsubsection{Facebook}
-\descript{| Software Engineer }
-\location{Jan 2015 - Present | New York, NY}
-\sectionsep
 
-\runsubsection{Coursera}
-\descript{| KPCB Fellow + Software Engineering Intern }
-\location{June 2014 – Sep 2014 | Mountain View, CA}
+\runsubsection{Autodesk}
+\descript{| Software Engineering Intern (AutoCAD Mobile) }
+\location{July 2017 – Present | Singapore}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
-\item Led and shipped Yoda - the admin interface for the new Phoenix platform. 
-\item Full-stack developer - Wrote and reviewed code for JS using Backbone, Jade, Stylus and Require and Scala using Play
+\begin{tightemize}\item Currently working with the AutoCAD Mobile Team, developing a dashboard website to monitor user analytics, crashes, tests and build statistics of the AutoCAD Mobile App in real-time \item Diligently following Extreme Programming (XP) practices with regular sprints \item Technical learning achieved: HTML5, Bootstrap3, JavaScript, C\#
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Google}
+\runsubsection{National University of Singapore}
+\descript{| Teaching Assistant }
+\location{January 2017 - May 2017 | Singapore}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}\item Conducted lab sessions for CS1020: Data Structures and Algorithms, one of the fundamental computer programming courses in NUS, taught in Java \item Marked students' programs and conducted consultations from time to time
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Anacle}
 \descript{| Software Engineering Intern }
-\location{May 2013 – Aug 2013 | Mountain View, CA}
-\begin{tightemize}
-\item Worked on the YouTube Captions team, in Javascript and Python to plan, to design and develop the full stack to add and edit Automatic Speech Recognition captions. In production.\item Created a backbone.js-like framework for the Captions editor.\end{tightemize}
-\sectionsep
-
-\runsubsection{Phabricator}
-\descript{| Open Source Contributor \& Team Leader}
-\location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
-\begin{tightemize}
-\item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.\item I created the Meme generator and more in PHP and Shell.\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.\end{tightemize}
+\location{December 2016 - January 2017 | Singapore}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}\item Worked as an SSRS/SQL developer, creating new reports and performing maintenance of existing reports \item Designed RDL reports in Microsoft Visual Studio based on standards set for report formatting \item Added a new functionality to Anacle’s flagship software product, Simplicity, as part of the
+hands-on training exercise, using C\#, ASP.NET and SQL
+\end{tightemize}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     RESEARCH
+%     PROJECTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Research}
-\runsubsection{Cornell Robot Learning Lab}
-\descript{| Researcher}
-\location{Jan 2014 – Jan 2015 | Ithaca, NY}
-Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  
+\section{Projects}
+\runsubsection{Lazyman's Friend}
+\descript{| To-Do Application Manager}
+\location{August 2016 - November 2016 | Singapore}
+GitHub Repository: \href{https://github.com/CS2103AUG2016-T11-C1/main}{\custombold{available here}}
+\begin{tightemize}\item Team Lead for this project \item Designed the GUI and wrote the parser and logic to implement various features \item Also wrote unit tests and compiled a technical documentation for the project
+\end{tightemize}
+\sectionsep
+\runsubsection{Independent Work}
+\descript{| NUS Orbital Project}
+\location{May 2016 - August 2016 | Singapore}
+\begin{tightemize}\item Developed a Membership and Events Website for NUS Computing Alumni to sign up for memberships and RSVP to events \item Developed using HTML, CSS, JavaScript and WordPress \item Performed extensive user-testing and also compiled a technical documentation for the project
+\end{tightemize}
 \sectionsep
 
-\runsubsection{Cornell Phonetics Lab}
-\descript{| Head Undergraduate Researcher}
-\location{Mar 2012 – May 2013 | Ithaca, NY}
-Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. 
-\sectionsep
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     AWARDS
+%     Scholarships
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Awards} 
+\section{Scholarships} 
 \begin{tabular}{rll}
-2014	     & top 52/2500  & KPCB Engineering Fellow\\
-2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
-2013	     & National  & Jump Trading Challenge Finalist\\
-2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
-2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
-2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
+2015 & Science and Technology Undergraduate Scholarship \\ & (National University of Singapore) \\
+2015 & INSPIRE Scholarship \\ & (Government of India) \\
 \end{tabular}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PUBLICATIONS
+%     Volunteer Experience
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Publications} 
-\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
-\bibliographystyle{abbrv}
-\bibliography{publications}
-\nocite{*}
+\section{Volunteer Experience} 
+
+\begin{tabular}{rll}
+2017 & Animal Shelter Helper & Society for Prevention of Cruelty to Animals\\
+2017 & Volunteer Teacher & TOUCH Community Services\\
+2014 & Volunteer Teacher & Don Bosco Liluah Night School, India \\
+\end{tabular}
+\sectionsep
 
 \end{minipage} 
-\end{document}  \documentclass[]{article}
+\end{document}
