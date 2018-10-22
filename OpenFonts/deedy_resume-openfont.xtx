@@ -45,13 +45,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[]{deedy-resume-openfont}
-\usepackage[margin=0.5in]{geometry}
+\usepackage[margin=0.25in]{geometry}
 \geometry{
  a4paper,
- left=5mm,
- top=5mm,
- right=5mm,
- bottom=5mm
+ left=3mm,
+ top=2mm,
+ right=3mm,
+ bottom=2mm
  }
 
 \begin{document}
@@ -61,7 +61,7 @@
 %     LAST UPDATED DATE
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{flushright}Last Updated on 20th December, 2017\end{flushright}
+\begin{flushright}Last Updated on 22nd October, 2018\end{flushright}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -70,7 +70,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \namesection {}{Pankaj Bhootra}{
-\href{mailto:pankajbhootra@gmail.com}{pankajbhootra@gmail.com} | (+65) 9614 5687
+\href{mailto:pankajbhootra@gmail.com}{pankajbhootra@gmail.com} | (+65) 9614 5687 | \href{https://www.linkedin.com/in/pankaj-bhootra-8b2182a1}{LinkedIn} | \href{https://github.com/PankajB1997}{GitHub}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -79,7 +79,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.33\textwidth} 
+\begin{minipage}[t]{0.30\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
@@ -88,32 +88,35 @@
 \section{Education} 
 
 \subsection{National University \\ of Singapore}
-\descript{B.Eng. in Computer Engineering}
-\location{Expected May 2019 | Singapore \\ Current CAP: 4.17 / 5.00}
+\descript{B.Eng. Computer Engineering}
+\location{Expected May 2019 | Singapore \\ Current CAP: 4.19 / 5.00}
 \sectionsep
 
 \subsection{ETH Zurich}
-\descript{Incoming Exchange Student}
-\location{Starting February 2018 | Switzerland}
+\descript{Semester Exchange}
+\location{Feb 2018 - May 2018 | Switzerland}
 \sectionsep
 
-\subsection{Hong Kong University \\ of Science and Technology}
-\descript{International Summer \\ Exchange Programme}
-\location{June 2016 - August 2016 | Hong Kong}
+\subsection{Hong Kong University \\ of Science and \\Technology}
+\descript{Summer Exchange}
+\location{Jun 2016 - Aug 2016 | Hong Kong}
 \sectionsep
 
 \subsection{Don Bosco School, Liluah}
-\location{Grad. April 2015 |  Kolkata, India \\ School-leaving Examinations: 99.00\%}
+\location{Grad. Apr 2015 |  Kolkata, India \\ School-leaving Examinations: 99.00\%}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     LINKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Links} 
-GitHub:// \href{https://github.com/PankajB1997}{\custombold{PankajB1997}} \\
-LinkedIn://  \href{https://www.linkedin.com/in/pankaj-bhootra-8b2182a1}{\custombold{pankaj-bhootra}}
-\sectionsep
+\section{Video URL} 
+\href{https://github.com/PankajB1997}{\custombold{youtube.com/pbhootra-essay-response}}
+\newline
+% \section{Other Links} 
+% GitHub:// \href{https://github.com/PankajB1997}{\custombold{PankajB1997}} \\
+% LinkedIn://  \href{https://www.linkedin.com/in/pankaj-bhootra-8b2182a1}{\custombold{pankaj-bhootra}}
+% \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
@@ -123,6 +126,8 @@ LinkedIn://  \href{https://www.linkedin.com/in/pankaj-bhootra-8b2182a1}{\customb
 \subsection{Undergraduate}
 Data Structures and Algorithms \\
 Software Engineering \\
+Machine Learning \\
+Models of Computation \\
 Computer Architecture \\
 Database Management Systems \\
 Real-time Operating Systems \\
@@ -144,12 +149,12 @@ Engineering Professionalism
 \location{Programming Languages}
 Java \textbullet{}   C\# \textbullet{} Python \textbullet{} C \textbullet{} C++ \\ 
 \location{Web Technologies}
-HTML \textbullet{} CSS \textbullet{} JavaScript \textbullet{} NodeJS \textbullet{} ExpressJS \textbullet{} MongoDB \textbullet{} SQL \textbullet{} Bootstrap3 \textbullet{} WordPress \\
+HTML \textbullet{} CSS \textbullet{} JavaScript \textbullet{} NodeJS \textbullet{} ExpressJS \textbullet{} MongoDB \textbullet{} SQL \\
 \location{Others}
 Analytics APIs \textbullet{} SQL Server Reporting Services (SSRS) \textbullet{} Microsoft Office \textbullet{} Compiling technical documentations for software projects
 \sectionsep
 \subsection{Languages}
-\location{Fluent in English and Hindi}
+\location{Fluent: English, Hindi}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -160,7 +165,7 @@ Analytics APIs \textbullet{} SQL Server Reporting Services (SSRS) \textbullet{} 
 
 \end{minipage} 
 \hfill
-\begin{minipage}[t]{0.66\textwidth} 
+\begin{minipage}[t]{0.69\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
@@ -168,18 +173,24 @@ Analytics APIs \textbullet{} SQL Server Reporting Services (SSRS) \textbullet{} 
 
 \section{Experience}
 
+\runsubsection{SAP}
+\descript{| Machine Learning Research Intern }
+\location{June 2018 - August 2018 | Singapore}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}\item Worked on a Document Matching problem, leveraging NLP and Deep Learning \item Trained and optimized Machine Learning models to solve a sentence classification problem, aimed at performing better document matching. Performed feature engineering and regular tests in the end to end pipeline to optimize accuracy \item Worked on data sourcing alongwith tokenizing and cleaning the same using various techniques such as stopword removal, morphy and lemmatizing \item Skills learnt: Python for Machine Learning, Scikit-learn, Keras, Gensim, and NLP techniques such as TF-IDF and Word2vec
+\end{tightemize}
+\sectionsep
+
 \runsubsection{Autodesk}
 \descript{| Software Development Intern (AutoCAD Mobile) }
 \location{July 2017 – December 2017 | Singapore}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}\item Developed a website with a scalable architecture to monitor various user analytics of the AutoCAD Mobile App. Worked on key features and was responsible for deployment and site reliability. \item Technical learning: HTML5, Bootstrap3, JavaScript, MongoDB, ExpressJS, NodeJS, developing configurable websites, JSON over HTTP/RESTful interfaces, using NodeJS APIs such as Moment, NodeMailer and Slackbot to set up an automated alerting system. \item Non-technical learning: Extreme Programming (daily standups, weekly planning meetings, presentations, etc.), Project Management using JIRA. \item Implemented file search in AutoCAD Mobile App (UWP version) using C\# and XAML and following the MVVM Design Pattern. All code was reviewed, perfected and pushed to production.
+\begin{tightemize}\item Developed a website with a scalable architecture to monitor various user analytics of the AutoCAD Mobile App. Worked on key features and was responsible for deployment and site reliability. \item Learnt HTML, CSS, JavaScript, MongoDB, ExpressJS, NodeJS, HTTP/RESTful interfaces. \item Practised daily standups, weekly planning meetings, presentations and project management using JIRA. \item Implemented file search in AutoCAD Mobile App (UWP version) using C\# and XAML and following the MVVM Design Pattern. All code was reviewed, perfected and pushed to production.
 \end{tightemize}
 \sectionsep
 
 \runsubsection{National University of Singapore}
 \descript{| Teaching Assistant }
 \location{January 2017 - May 2017 | Singapore}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}\item Conducted lab sessions for CS1020: Data Structures and Algorithms, one of the fundamental computer programming courses in NUS, taught in Java \item Marked students' programs and conducted consultations from time to time
 \end{tightemize}
 \sectionsep
@@ -187,8 +198,7 @@ Analytics APIs \textbullet{} SQL Server Reporting Services (SSRS) \textbullet{} 
 \runsubsection{Anacle}
 \descript{| Software Engineering Intern }
 \location{December 2016 - January 2017 | Singapore}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}\item Worked as an SSRS/SQL developer, creating new reports and performing maintenance of existing reports \item Designed RDL reports in Microsoft Visual Studio based on standards set for report formatting \item Added a new functionality to Anacle’s flagship software product, Simplicity, as part of the
+\begin{tightemize}\item Worked as an SSRS/SQL developer, creating new reports and performing maintenance of existing reports \item Designed RDL reports in Microsoft Visual Studio based on set requirements \item Added a new functionality to Anacle’s flagship software product, Simplicity, as part of the
 hands-on training exercise, using C\#, ASP.NET and SQL
 \end{tightemize}
 \sectionsep
@@ -202,13 +212,13 @@ hands-on training exercise, using C\#, ASP.NET and SQL
 \descript{| To-Do Application Manager}
 \location{August 2016 - November 2016 | Singapore}
 GitHub Repository: \href{https://github.com/CS2103AUG2016-T11-C1/main}{\custombold{available here}}
-\begin{tightemize}\item Team Lead for this project \item Designed the GUI and wrote the parser and logic to implement various features \item Also wrote unit tests and compiled a technical documentation for the project
+\begin{tightemize}\item Team Lead/Scrum Master for this project; designed the GUI and wrote the parser and logic to implement various features \item Wrote unit tests and compiled User Guide and Developer's Guide documents
 \end{tightemize}
 \sectionsep
 \runsubsection{Independent Work}
 \descript{| NUS Orbital Project}
 \location{May 2016 - August 2016 | Singapore}
-\begin{tightemize}\item Developed a Membership and Events Website for NUS Computing Alumni to sign up for memberships and RSVP to events \item Developed using HTML, CSS, JavaScript and WordPress \item Performed extensive user-testing and also compiled a technical documentation for the project
+\begin{tightemize}\item Developed a Membership and Events Website for NUS Computing Alumni to sign up for memberships and RSVP to events, using HTML, CSS, JavaScript and WordPress \item Performed extensive user-testing and compiled a technical documentation of features
 \end{tightemize}
 \sectionsep
 
